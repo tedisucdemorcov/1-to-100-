@@ -1,0 +1,11 @@
+DIV{
+    border-style: solid;
+    border-color: red;
+    border-width: 4px;
+    max-width: fit-content;
+}
+.P_Dotted{
+    border-style: dotted;
+    border-color: red;
+    border-width: 2px 20px 6px 15px;
+}

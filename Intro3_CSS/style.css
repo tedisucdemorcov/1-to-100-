@@ -1,0 +1,14 @@
+body{
+    background-image: url(https://www.mit.edu/files/images/202103/MIT-AI-Holography-01-press.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+
+h1{
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

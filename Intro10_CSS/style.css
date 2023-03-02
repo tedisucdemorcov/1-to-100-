@@ -1,0 +1,10 @@
+/* 1.) A table with 4 rows and 3 columns.
+
+2.) Odd rows will be blue.
+
+3.) Extra: Only the table should have a border. */
+
+td:nth-child(odd)
+{
+    background-color: blue;
+}

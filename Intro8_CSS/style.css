@@ -1,0 +1,9 @@
+/* 1.) Set the font family for the page to “San serif”, and the font family for <h2> to Arial . */
+.body
+{
+    font-family: sans-serif;
+}
+.h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+}

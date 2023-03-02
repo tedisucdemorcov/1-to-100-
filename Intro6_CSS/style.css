@@ -1,0 +1,26 @@
+/* A blue title with underline, capitalize, and orange shadow. Align the text to center. Space between every letter should be 3px.
+        
+        A black paragraph with -3px space between words. Indentation should be 75px.  */
+
+
+body
+{
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+}        
+.Title
+{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: orange 5px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.Text
+{
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    text-indent: 75px;
+}

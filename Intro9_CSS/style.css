@@ -1,0 +1,15 @@
+/* A green link that redirects to YouTube
+-When the user hovers with the mouse over the link and clicks it, the content should be red
+
+
+Extra: display the link without underline */
+
+a:hover
+{
+    color: rgb(241, 12, 5);
+}
+a
+{
+    color: green;
+    text-decoration: none;
+}

@@ -1,0 +1,39 @@
+.hide {
+    display: none;
+    align-items: center;
+    
+}
+.visually-hidden {
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+.ingredients
+{
+    background-color: rgb(102, 160, 160);
+    width: max-content;
+    border-radius: 10%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: red;
+    padding: 2vh;
+    margin: 2vh;
+    
+}
+.all
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+   
+}

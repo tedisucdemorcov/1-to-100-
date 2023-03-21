@@ -1,0 +1,36 @@
+/* Create a div with class content containing a div that will appear in the center with the word center\
+ and another div that will appear on the bottom right with the word right corner. */
+
+ .content 
+ {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center 
+{
+    background-color: rgb(79, 116, 129);
+    padding: 20px;
+    border-radius: 5px;
+    color: orange !important;
+    font-size: larger;
+}
+
+.content_1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+}
+
+.bottom
+{
+    background-color: rgb(79, 116, 129);
+    padding: 10px;
+    border-radius: 5px;
+    color: orange !important;
+    font-size: larger;
+}

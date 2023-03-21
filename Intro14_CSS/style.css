@@ -1,0 +1,39 @@
+/* <!--Create a div with the following text:
+1.) “we love red cars”, with the following properties of div style 
+
+a.) Width : 50% 
+
+b.) Text-align : center  
+
+c.) Border :1px solid blue 
+
+d.) The div will be in the center of the page  -->
+ */
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background: rgb(53,68,88);
+    background: linear-gradient(90deg, 
+     rgba(53,68,88,0.8981967787114846) 7%,
+     rgba(60,82,105,1) 18%, rgba(70,102,131,1) 29%, 
+     rgba(74,125,168,1) 40%, rgba(70,142,200,1) 50%,
+     rgba(38,140,218,0.8981967787114846) 61%, 
+     rgba(17,138,232,0.8981967787114846) 71%, 
+     rgba(0,137,244,0.8981967787114846) 85%);
+    border-radius: 0% 0% 10% 10%;
+
+}
+
+ .cars
+ {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    border: 1px solid rgb(26, 26, 91);
+    justify-content: center;
+    align-items: center;
+    color: rgb(178, 34, 34) !important;
+ }

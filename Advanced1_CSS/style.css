@@ -1,0 +1,44 @@
+/* 
+1.) Add the following features to body selector.
+a.) Arial font.
+b.) Padding 10px. 
+
+2.) Add the following features to class header selector.
+
+a.) Padding 30px.
+
+b.) Text-align center. 
+
+c.) Background rgb(122, 89, 156).
+
+3.) All the h2 tags will be with color rgb(122, 89, 156).
+
+4.) All the h5 tags will be with color rgb(122, 165, 226).
+
+5.) H1 in the header tag will have font-size 50px. 
+ */
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.header
+{
+    padding: 30px;
+    text-align: center;
+    background: rgb(122, 89, 156);
+}
+.header h1
+{
+    font-size: 50px;
+}
+.h2
+{
+    color: rgb(122, 89, 156);
+    
+}
+.h5
+{
+    color: rgb(122, 165, 226);
+}

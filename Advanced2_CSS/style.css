@@ -1,0 +1,66 @@
+/* 
+Continuing with the previous exercise:
+
+1.) Create a class frame with the following properties: 
+
+a.) 100% width. 
+
+b.) White background.
+
+c.) Padding 5px. 
+
+d.) Margin top 20 px.
+
+ 
+
+2.) All the images in the frame will be with the following properties: 
+
+a.) Background color #aaa. 
+
+b.) Padding 20px.
+
+c.) Margin top 10px.
+
+ 
+
+3.) Select all elements, and set their box-sizing to border-box
+ */
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.header
+{
+    padding: 30px;
+    text-align: center;
+    background: rgb(122, 89, 156);
+}
+.header h1
+{
+    font-size: 50px;
+}
+.h2
+{
+    color: rgb(122, 89, 156);
+    
+}
+.h5
+{
+    color: rgb(122, 165, 226);
+}
+.frame
+{
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+.images
+{
+    background-color: #aaa;
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}

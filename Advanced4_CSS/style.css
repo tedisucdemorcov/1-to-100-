@@ -1,0 +1,107 @@
+/* 
+Continuing with the previous exercise:
+
+1.) Create a cool navigation bar with 
+
+a.) Arial font
+
+b.) Padding 10px 
+
+2.) Add the following features to header selector
+
+a.) Padding 30px 
+
+b.) Text-align center 
+
+c.) Background rgb(122, 89, 156)
+
+3.) All the h2 tags will be with color rgb(122, 89, 156)
+
+4.) All the h5 tags will be with color rgb(122, 165, 226)
+
+5.) h1 in the header tag will have font-size 50px 
+
+*/
+
+.navbar
+{
+    display: block;
+    background-color: rgb(154, 224, 224);
+    text-align: center;
+    width: auto;
+    height: 5vh;
+    margin-top: 1vh;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+.X 
+{
+    margin-left: 20px;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: red;
+    font-style: italic;
+}
+.header
+{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(122, 89, 156);
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: rgb(122, 165, 226) ;
+}
+
+
+.header
+{
+    padding: 30px;
+    text-align: center;
+    background: rgb(122, 89, 156);
+}
+.header h1
+{
+    font-size: 50px;
+}
+.h2
+{
+    color: rgb(122, 89, 156);
+    
+}
+.h5
+{
+    color: rgb(40, 54, 72);
+}
+.frame
+{
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+.images
+{
+    background-color: #aaa;
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.leftcolumn
+{
+    float: left;
+    width: 75%; 
+    
+}
+
+.rightcolumn
+{
+    width: 25%;
+    float: left;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+}

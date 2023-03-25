@@ -1,0 +1,30 @@
+/* 
+Create an unordered list with:
+1.) Red background
+
+a.) Padding 20px
+
+2.) For the items of the list let them have
+a.) Background #ee7969
+
+b.) Margin 5px
+ */
+
+ul
+{
+    background-color: red;
+    padding: 20px;
+    max-width: max-content;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+li
+{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #ee7669;
+}

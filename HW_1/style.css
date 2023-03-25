@@ -1,0 +1,48 @@
+/* 
+Create a page with:
+
+    1.) A red title with class “t1” - with Wawiwa text 
+
+    2.) A green subtitle (all h2 is green)  - to learn code
+
+    3.) 2 yellow paragraphs with class “container” - and have fun
+ */
+body
+{
+    background-color: black;
+}
+.t1
+{
+    color: red;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container
+{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+h2
+{
+    color: green;
+    background-color: rgb(103, 64, 30);
+    width: max-content;
+    height: max-content;
+    padding: 2%;
+    border-radius: 5%;
+  
+}
+p
+{
+    color: yellow;
+    background-color: rgb(103, 64, 30);
+    width: max-content;
+    height: max-content;
+    padding: 2%;
+    border-radius: 5%;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}

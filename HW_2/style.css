@@ -1,0 +1,35 @@
+/* Create a page with:
+
+    A title with a rounded blue 5px solid border
+
+    A paragraph with a green 3px dotted border
+
+    Use shorthand */
+
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+title
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+h2
+{
+    padding: 5px;
+    border: solid blue 5px;
+    width: max-content;
+    margin: 2%;
+}
+
+p
+{
+    padding: 5px;
+    border: dotted green 3px;
+    width: max-content;
+    margin: 2%;
+}
